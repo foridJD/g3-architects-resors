@@ -6,3 +6,191 @@
   font-weight: 400;
   font-style: normal;
 }
+
+:root{
+    --hover-bg: #FF900E;
+    --bnt-text: #ffffff;
+    --dark-1: rgba(19, 19, 19, 1);
+    --dark-2: rgba(66, 66, 66, 1);
+    --dark-3:rgba(114, 114, 114, 1);
+}
+
+
+/* sheard style */
+.display-flex{
+    display: flex;
+}
+.text-primary{
+    background-color: #FFF4E7;
+}
+.dark-1{
+    color: rgba(19, 19, 19, 1);
+}
+.dark-2{
+    color: rgba(66, 66, 66, 1);
+}
+.dark-3{
+    color: rgba(114, 114, 114, 1);
+}
+
+img{
+    max-width: 100%;
+}
+/* hero area style */
+.header{
+    width: 1880px;
+    margin: 0 auto;
+}
+.neavbur{
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-item{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 26px;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+.nav-link:hover{
+    background-color: var(--hover-bg);
+    color: var(--bnt-text);
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.banar-area{
+    max-width: 1440px;
+    margin: auto;
+}
+.banar-title{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banar-description{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+}
+.banar-btn{
+    margin: 30px auto;
+    border: none;
+    background: none;
+    display: block;
+    align-content: center;
+}
+
+.banar-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--dark-1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.banar-btn a:hover{
+    background-color: var(--hover-bg);
+    color: var(--bnt-text);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.banar-image{
+    padding-bottom: 40px;
+}
+
+/* feature section start */
+
+.our-features{
+    width: 1390px;
+    margin: 50px auto;
+}
+.feature-container{
+    gap: 70px;
+    align-items: center;
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feature-content{
+    max-width: 538px;
+}
+.feature-head-1{
+    font-weight: 500;
+    font-size: 2.1rem;
+    color: var(--dark-3);
+}
+.feature-head-2{
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: var(--dark-1);
+}
+.feature-head-3{
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: var(--hover-bg);
+}
+
+ .feature-head-descriotion{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--dark-3);
+ }
+.feature-btn{
+    border: none;
+    background: none;
+    margin-top: 30px;
+    border-radius: 8px;   
+}
+.feature-btn a{
+    text-decoration: none;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-1);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.feature-btn a:hover{
+    background-color: var(--hover-bg);
+    color: var(--bnt-text);
+}
+
+
+
+
+
+/* madia quary for small divaic */
+@media screen and (max-width:576px) {
+    .neavbur, .nav-links, .feature-container{
+        flex-direction: column;
+    }
+    .banar-title{
+        align-content: center;
+        font-size: 2rem;
+        margin: 5px; 
+    }
+    .feature-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-container{
+        align-content: center;
+    }
+    
+}
