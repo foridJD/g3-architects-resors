@@ -181,7 +181,8 @@ img{
 
 /* experience section start */
 .experience{
-    max-width: 1880px;
+    max-width: 1440px;
+    margin: 50px auto;
     
 }
 .experience-container{
@@ -252,6 +253,94 @@ img{
     line-height: 40px;
     color: var(--bnt-text);
 }
+
+
+/* facts section start */
+.facts-title-area{
+    margin: 150px 0px 100px 0px;
+}
+.some-facts{
+    max-width: 1440px;
+    margin: 50px auto;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: var(--dark-1);
+    margin-bottom: 20px;
+}
+.facts-description{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--dark-3);
+    margin-top: 24px;
+}
+.facts-container{
+    justify-content: space-between;
+}
+.facts-card{
+    border: 1px solid var(--hover-bg);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.corent-awards{
+    font-weight: 600;
+    font-size: 2.3rem;
+    color: var(--dark-2);
+    margin: 5px 0;
+}
+.award-card-description{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--dark-3);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.our-sponspors{
+    width: 1440px;
+    margin: 70px auto;
+    text-align: center;
+}
+.sponspor-title{
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: var(--dark-1);
+    margin-bottom: 20px;
+}
+.sponspor-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--dark-3);
+    margin-bottom: 20px;
+}
+.sponsors-compane{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 150px;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+.sponsors-compane img{
+filter: grayscale(100%);
+}
+#footer{
+    max-width: 1440px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 5px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--dark-3);
+    padding: 40px ; 
+}
+
+
+
 
 
 
